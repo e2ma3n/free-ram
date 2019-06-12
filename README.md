@@ -7,6 +7,10 @@ echo 3 > /proc/sys/vm/drop_caches every 1 minute
 ## What distributions are supported ?
 All popular linux distributions such as debian and CentOS
 
+| Distribution | Version |
+| ---------- | ----------- |
+| Debian     | debian-9.9.0-amd64-netinst |
+
 
 ## Dependencies
 
