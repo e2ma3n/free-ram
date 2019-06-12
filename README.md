@@ -25,7 +25,7 @@ All popular linux distributions such as debian and CentOS
 # chmod +x /opt/free-ram/script.sh
 # echo '* * * * * root /opt/free_ram/script.sh' > /etc/crontab
 ```
-you read log file using :
+you can read log file using :
 ```
 # tail -f /var/log/free_ram.log
 ```
