@@ -10,6 +10,7 @@ All popular linux distributions such as debian and CentOS
 | Distribution | Version |
 | ---------- | ----------- |
 | Debian     | debian-9.9.0-amd64-netinst |
+| CentOS     | CentOS Linux release 7.6.1810 (Core) |
 
 
 ## Dependencies
