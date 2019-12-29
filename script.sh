@@ -2,14 +2,12 @@
 # Programming and idea by : E2MA3N [Iman Homayouni]
 # Gitbub : https://github.com/e2ma3n
 # Email : e2ma3n@Gmail.com
-# free-ram v1.0 - echo 3 > /proc/sys/vm/drop_caches every 1 minute
-# Last update : 12-June-2019_19:11:58
+# free-ram v2.0 - echo 3 > /proc/sys/vm/drop_caches every 1 minute
+# Last update : 29-December-2019_15:02:32
 # ------------------------------------------------------------------- #
 
 # comment : check /var/log/ directory
-if [ ! -d /var/log/ ] ; then
-	mkdir -p /var/log/
-fi
+[ ! -d /var/log/ ] && mkdir -p /var/log/
 
 # comment : create log file
 time=$(date +"%d-%B-%Y_%T")
