@@ -1,0 +1,12 @@
+[Unit]
+Description= echo 3 > /proc/sys/vm/drop_caches every 1 minute
+after=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=60
+ExecSatrt=/bin/bash /usr/bin/free-ram
+
+[Install]
+WantedBy=nulti-user.target
