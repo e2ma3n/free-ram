@@ -25,11 +25,14 @@ All popular linux distributions such as debian and CentOS
 ## How to install ?
 ```
 # su - root
-# git clone https://github.com/e2ma3n/free-ram
-# mkdir /opt/free-ram/
-# mv free-ram/script.sh /opt/free-ram/
-# chmod +x /opt/free-ram/script.sh
-# echo '* * * * * root /opt/free-ram/script.sh' >> /etc/crontab
+# git clone -b systemd https://github.com/e2ma3n/free-ram
+# mv free-ram/free-ram.sh /usr/bin/free-ram
+# chmod +x /usr/bin/free-ram
+# mv free-ram/free-ram.service /lib/systemd/system/
+# systemctl daemon-reload
+# systemctl enable free-ram.service
+# systemctl start free-ram.service
+# rm -rf free-ram/
 ```
 you can read log file using :
 ```
