@@ -31,7 +31,7 @@ All popular linux distributions such as debian and CentOS
 # chmod +x /opt/free-ram/free-ram.sh
 # echo '* * * * * root /opt/free-ram/free-ram.sh' >> /etc/crontab
 ```
-you can read log file using :
+Then you can read log file :
 ```
 # tail -f /var/log/free_ram.log
 ```
