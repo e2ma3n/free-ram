@@ -25,7 +25,7 @@ All popular linux distributions such as debian and CentOS
 ## How to install ?
 ```
 # su - root
-# git clone -b systemd https://github.com/e2ma3n/free-ram
+# git clone -b systemd https://github.com/iman-homayouni/free-ram
 # mv free-ram/free-ram.sh /usr/bin/free-ram
 # chmod +x /usr/bin/free-ram
 # mv free-ram/free-ram.service /lib/systemd/system/
@@ -34,7 +34,7 @@ All popular linux distributions such as debian and CentOS
 # systemctl start free-ram.service
 # rm -rf free-ram/
 ```
-you can read log file using :
+Then you can read log file :
 ```
 # tail -f /var/log/free_ram.log
 ```
